@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{B105D502-496D-419F-89BE-5717B33360D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{6CA52145-A9D8-4928-B803-97A06ADB88FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{CA34D3B1-DCB7-46D2-AB4C-38BD2181C167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{90863911-450C-4906-BE51-8D11FE3777A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{3DF62E91-9F5D-42A6-913F-EE2CCE06F7E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{433F5897-091F-4BD3-B740-DD75F5C3FBB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bryan.BancoBari.Infra.CrossCutting.IoC", "Bryan.BancoBari.Infra.CrossCutting.IoC\Bryan.BancoBari.Infra.CrossCutting.IoC.csproj", "{8A619EB6-0593-4FA6-B1EF-E388463F0051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{752CC18C-4F26-43F8-8A93-7581400D1398}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bryan.BancoBari.Domain", "Bryan.BancoBari.Domain\Bryan.BancoBari.Domain.csproj", "{8001F484-ACDB-4515-99D5-F8DCFF3D9BA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bryan.BancoBari.Application", "Bryan.BancoBari.Application\Bryan.BancoBari.Application.csproj", "{EFFB018B-AAB8-4584-A1F4-0728DE5B2EB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bryan.BancoBari.Api", "Bryan.BancoBari.Api\Bryan.BancoBari.Api.csproj", "{11B10F87-7007-4E76-BDE7-AAFBC40A144B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka", "Kafka", "{B51F688C-75DC-47D0-9B0F-09B2DE7F9027}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bryan.Infra.CrossCutting.Kafta", "Bryan.Infra.CrossCutting.Kafta\Bryan.Infra.CrossCutting.Kafta.csproj", "{347A4F8A-B00A-4381-9156-3894A30CAA19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Testing", "5 - Testing", "{70507B86-5F84-4CA1-8ABD-4D1DA4B78E46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bryan.BancoBari.Domain.Testing", "Bryan.BancoBari.Domain.Testing\Bryan.BancoBari.Domain.Testing.csproj", "{020EA052-836F-4849-B804-B3B7202206BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bryan.BancoBari.Service.Kafka.Consumer", "Bryan.BancoBari.Service.Kafka.Consumer\Bryan.BancoBari.Service.Kafka.Consumer.csproj", "{64BEB4C3-3D55-4965-A0B0-08337AC9CF04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A619EB6-0593-4FA6-B1EF-E388463F0051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A619EB6-0593-4FA6-B1EF-E388463F0051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A619EB6-0593-4FA6-B1EF-E388463F0051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A619EB6-0593-4FA6-B1EF-E388463F0051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8001F484-ACDB-4515-99D5-F8DCFF3D9BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8001F484-ACDB-4515-99D5-F8DCFF3D9BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8001F484-ACDB-4515-99D5-F8DCFF3D9BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8001F484-ACDB-4515-99D5-F8DCFF3D9BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFB018B-AAB8-4584-A1F4-0728DE5B2EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFB018B-AAB8-4584-A1F4-0728DE5B2EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFB018B-AAB8-4584-A1F4-0728DE5B2EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFB018B-AAB8-4584-A1F4-0728DE5B2EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B10F87-7007-4E76-BDE7-AAFBC40A144B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B10F87-7007-4E76-BDE7-AAFBC40A144B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B10F87-7007-4E76-BDE7-AAFBC40A144B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B10F87-7007-4E76-BDE7-AAFBC40A144B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347A4F8A-B00A-4381-9156-3894A30CAA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347A4F8A-B00A-4381-9156-3894A30CAA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347A4F8A-B00A-4381-9156-3894A30CAA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347A4F8A-B00A-4381-9156-3894A30CAA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020EA052-836F-4849-B804-B3B7202206BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020EA052-836F-4849-B804-B3B7202206BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020EA052-836F-4849-B804-B3B7202206BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020EA052-836F-4849-B804-B3B7202206BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BEB4C3-3D55-4965-A0B0-08337AC9CF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BEB4C3-3D55-4965-A0B0-08337AC9CF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BEB4C3-3D55-4965-A0B0-08337AC9CF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BEB4C3-3D55-4965-A0B0-08337AC9CF04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DF62E91-9F5D-42A6-913F-EE2CCE06F7E4} = {90863911-450C-4906-BE51-8D11FE3777A4}
+		{433F5897-091F-4BD3-B740-DD75F5C3FBB8} = {90863911-450C-4906-BE51-8D11FE3777A4}
+		{8A619EB6-0593-4FA6-B1EF-E388463F0051} = {433F5897-091F-4BD3-B740-DD75F5C3FBB8}
+		{8001F484-ACDB-4515-99D5-F8DCFF3D9BA2} = {CA34D3B1-DCB7-46D2-AB4C-38BD2181C167}
+		{EFFB018B-AAB8-4584-A1F4-0728DE5B2EB9} = {6CA52145-A9D8-4928-B803-97A06ADB88FB}
+		{11B10F87-7007-4E76-BDE7-AAFBC40A144B} = {B105D502-496D-419F-89BE-5717B33360D6}
+		{B51F688C-75DC-47D0-9B0F-09B2DE7F9027} = {752CC18C-4F26-43F8-8A93-7581400D1398}
+		{347A4F8A-B00A-4381-9156-3894A30CAA19} = {433F5897-091F-4BD3-B740-DD75F5C3FBB8}
+		{020EA052-836F-4849-B804-B3B7202206BF} = {70507B86-5F84-4CA1-8ABD-4D1DA4B78E46}
+		{64BEB4C3-3D55-4965-A0B0-08337AC9CF04} = {B51F688C-75DC-47D0-9B0F-09B2DE7F9027}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25397D84-1D8E-41CE-80BD-CDF5315A020C}
+	EndGlobalSection
+EndGlobal
